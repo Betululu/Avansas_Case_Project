@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports"},
         features = "src/test/resources/features", // feature dosyaları nerede ?
         glue = "stepDefinitions", // senaryo adımları nerede ?
-        tags ="@insider",
+        tags ="@avansas",
         dryRun = false // testleri çalıştırma sadece eksik olan methodları (steps) run icin false
 
 

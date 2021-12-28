@@ -24,12 +24,6 @@ public class Avansas_Page {
     @FindBy(xpath = "//*[contains(text(),'ARA')]")
     public WebElement araButton;
 
-//    @FindBy(xpath = "//*[contains(text(),'Ofis Kırtasiye')]")
-//    public WebElement ofisKirtasiye;
-//
-//    @FindBy(xpath = "//a[@href=' /kursun-kalemler-c-5']")
-//    public WebElement kursunKalemler;
-
     @FindBy(xpath = "//img[@data-name=\"Kurşun Kalemler\"]")
     public WebElement kursunKalemler;
 
